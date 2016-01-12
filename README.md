@@ -7,7 +7,7 @@ Application web for raspbian which changes between hdmi audio and jack audio
 
 ## How to use
 * Clone this repository
-* Give your web server sudo permission to amixer command. In my case I used Apache2 (www-data user) and I executed "sudo visudo" in the terminal and wrote the following las lines for getting sudo permission:
+* Give your web server sudo permission to amixer command. In my case I used Apache2 (www-data user) and I executed "sudo visudo" in the terminal and wrote the following last line for getting this permission:
 
 ```
 www-data ALL=(ALL) NOPASSWD: /usr/bin/amixer
