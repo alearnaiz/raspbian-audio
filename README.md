@@ -14,7 +14,7 @@ $ sudo visudo
 ```
 Then add this line in your /etc/sudoers file:
 ```
-$ www-data ALL=(ALL) NOPASSWD: /usr/bin/amixer
+          www-data ALL=(ALL) NOPASSWD: /usr/bin/amixer
 ```
 
 * Run index.html in a server web and select the audio mode you desire
