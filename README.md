@@ -7,7 +7,7 @@ Application web for raspbian which changes between hdmi audio and jack audio
 
 ## How to use
 * Clone this repository
-* Give your web server sudo permission to amixer command.
+* Give your web server sudo permission to amixer command
 
 If you use Apache2, edit your /etc/sudoers file:
 ```
